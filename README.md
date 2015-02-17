@@ -4,4 +4,4 @@ En este repositorio se encuentra los archivos de validación, contraseñas y pag
 
 ## Aportaciones
 
-Son bienvenidas otras variaciones de otros paises. Cualquier aportación vía Pull-Request ;D
+Mejoras y otras variaciones de otros paises de habla hispana son más que bienvenidas. Cualquier aportación vía Pull-Request ;D
