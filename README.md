@@ -31,6 +31,8 @@ Para instalar un nuevo idioma no hay más que crear una carpeta dentro de `lang`
         /es_ES  (español de España)
         /es_AR  (español de Argentina)
 ```
+Cada carpeta contendrá los archivos de idioma oportunos, siendo por defecto: passwords, validation y pagination, pero pueden ser muchos otros para traducir otras partes de la aplicación y mantener las traducciones bien agrupadas.
+
 Una vez instalado un idioma, se puede utilizar cambiando el parámetro `locale` de la configuración de Laravel en `config/app.php`:
 
 ```
