@@ -6,7 +6,6 @@ En este repositorio se encuentran los archivos de idioma por defecto de Laravel 
 - [Variaciones por traducir](#variaciones-por-traducir)
 - [Colaborar](#colaborar)
 
-<a name="variaciones-por-traducir"></a>
 Archivos incluidos en Laravel:
 ```
 passwords.php
@@ -14,7 +13,7 @@ pagination.php
 validation.php
 ```
 
-
+<a name="como-se-usa"></a>
 ## ¿Cómo usar los archivos de traducción?
 
 Los archivos de idioma de Laravel 5 se encuentran en la carpeta `resources/lang`. En la versión de Laravel 4 se encuentran en `app/lang`. El funcionamiento es exactamente el mismo en ambas versiones, solo cambia la ubicación.
