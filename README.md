@@ -1,6 +1,13 @@
 # Laravel Español
 
-En este repositorio se encuentra los archivos de validación, contraseñas y paginación por defecto de Laravel 5 traducidos a español.
+En este repositorio se encuentran los archivos de idioma por defecto de Laravel 5 traducidos a las diferentes variaciones del español.
+
+Archivos incluidos en Laravel:
+```
+passwords.php
+pagination.php
+validation.php
+```
 
 A continuación una lista de todas las variaciones posibles por traducir:
 
