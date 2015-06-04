@@ -3,7 +3,6 @@
 En este repositorio se encuentran los archivos de idioma por defecto de Laravel 5 traducidos a las diferentes variaciones del español.
 
 - [¿Cómo se usa?](#como-se-usa)
-- [Variaciones por traducir](#variaciones-por-traducir)
 - [Colaborar](#colaborar)
 
 
@@ -49,8 +48,8 @@ Cada carpeta contendrá los archivos de idioma oportunos, siendo por defecto: pa
 Una vez instalado un idioma, se puede utilizar cambiando el parámetro `locale` de la configuración de Laravel en `config/app.php`:
 
 ```
-// Ej: español argentino
-'locale'          => 'es_AR',
+// Ej: español de españa
+'locale'          => 'es_ES',
 // Ej: inglés británico
 'locale'          => 'en_UK',
 ```
@@ -64,33 +63,6 @@ App::setLocale('es_ES');
 Para conocer de forma más completa como funcionan los archivos de traducción de Laravel visita la documentación.
 
 [Ver documentación (traducida)](http://laraveles.com/docs/4.1/localization)
-
-<a name="variaciones-por-traducir"></a>
-## Variaciones por traducir
-
-- [ ] es_AR - Argentina
-- [ ] es_BO - Bolivia
-- [ ] es_CL - Chile
-- [ ] es_CO - Colombia
-- [ ] es_CR - Costa Rica
-- [ ] es_DO - República Dominicana
-- [ ] es_EC - Ecuador
-- [x] ~~es_ES - España~~
-  - [ ] es_CA - Catalán (Cataluña)
-  - [ ] es_GL - Gallego (Galicia)
-  - [ ] es_EU - Euskera (País Vasco)
-- [ ] es_GT - Guatemala
-- [ ] es_HN - Honduras
-- [ ] es_MX - México
-- [ ] es_NI - Nicaragua
-- [ ] es_PA - Panamá
-- [ ] es_PE - Perú
-- [ ] es_PR - Puerto Rico
-- [ ] es_PY - Paraguay
-- [ ] es_SV - El Salvador
-- [ ] es_US - Estados Unidos
-- [ ] es_UY - Uruguay
-- [ ] es_VE - Venezuela
 
 <a name="colaborar"></a>
 ## Colaborar
