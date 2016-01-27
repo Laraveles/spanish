@@ -44,7 +44,7 @@ return [
     'json'                 => 'El campo :attribute debe ser una cadena de texto JSON válida.',
     'max'                  => [
         'numeric' => 'El campo :attribute debe ser menor que :max.',
-        'file'    => 'El archivo :attribute debe pesar meno que :max kilobytes.',
+        'file'    => 'El archivo :attribute debe pesar menos de :max kilobytes.',
         'string'  => 'El campo :attribute debe contener menos de :max caracteres.',
         'array'   => 'El campo :attribute debe contener al menos :max elementos.',
     ],
