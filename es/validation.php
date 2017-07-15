@@ -84,10 +84,10 @@ return [
         'array'   => 'El campo :attribute debe contener :size elementos.',
     ],
     'state'                => 'El estado no es válido para el país seleccionado.',
-    'string'               => 'El campo :attribute debe contener sólo caracteres.',
+    'string'               => 'El campo :attribute debe contener sólo caracteres alfanuméricos.',
     'timezone'             => 'El campo :attribute debe contener una zona válida.',
-    'unique'               => 'El elemento :attribute ya está en uso.',
-    'uploaded'             => 'El elemento :attribute fallo al subir.',
+    'unique'               => 'El :attribute ya está en uso.',
+    'uploaded'             => 'Fallo al subir :attribute.',
     'url'                  => 'El formato de :attribute no corresponde con el de una URL válida.',
 
     /*
