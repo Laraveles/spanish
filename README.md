@@ -5,6 +5,7 @@ Paquete de traducciones en español para Laravel 5. Este paquete te agrega a tu 
 Archivos por defecto incluidos en Laravel:
 
 ```
+auth.php
 passwords.php
 pagination.php
 validation.php
