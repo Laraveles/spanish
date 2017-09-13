@@ -32,7 +32,13 @@ Posteriormente debes agregar el proveedor de servicios en tu fichero `config/app
 ];
 ```
 
-Ahora necesitamos actualizar las traducciones que lo haremos con el siguiente comando:
+Ahora símplemente necesitamos necesitamos actualizar las traducciones que lo haremos con el siguiente comando:
+
+```bash
+php artisan vendor:publish --tag=lang
+```
+
+O también podramos usar:
 
 ```bash
 php artisan laraveles:install-lang
