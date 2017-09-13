@@ -1,15 +1,6 @@
 # Laravel Español
 
-En este repositorio se encuentran los archivos de idioma por defecto de Laravel 5 traducidos a las diferentes variaciones del español.
-
-- [¿Cómo se usa?](#como-se-usa)
-- [Colaborar](#colaborar)
-
-
-<a name="como-se-usa"></a>
-## ¿Cómo usar los archivos de traducción?
-
-Los archivos de idioma de Laravel 5 se encuentran en la carpeta `resources/lang`. En la versión de Laravel 4 se encuentran en `app/lang`. El funcionamiento es exactamente el mismo en ambas versiones, solo cambia la ubicación.
+Paquete de traducciones en español para Laravel 5. Este paquete te agrega a tu proyecto los ficheros de traducciones en español que Laravel 5 trae por defecto.
 
 Archivos por defecto incluidos en Laravel:
 
@@ -19,31 +10,38 @@ pagination.php
 validation.php
 ```
 
-En el directorio `lang` se incluye por defecto una carpeta por defecto llamada `en`. Esta carpeta contiene el idioma inglés de Laravel.
+- [Instalación](#instalar)
+- [Colaborar](#colaborar)
 
-Para instalar un nuevo idioma no hay más que crear una carpeta dentro de `lang` correspondiente correspondiente al idioma quedando por ejemplo la siguiente estructura para diferentes idiomas o variantes de estos:
-```
-/resources
-    /lang
-        /en
-            passwords.php
-            pagination.php
-            validation.php
-            ...
-        /es
-            passwords.php
-            pagination.php
-            validation.php
-            ...
-        /pt
-            ...
-        /fr
-            ...
+
+<a name="instalar"></a>
+## Instalación
+
+Puedes instalar este paquete mediante composer:
+
+```bash
+composer require laraveles/lang-es
 ```
 
-Cada carpeta contendrá los archivos de idioma oportunos, siendo por defecto: auth, passwords, validation y pagination, pero pueden ser muchos otros para traducir otras partes de la aplicación y mantener las traducciones bien agrupadas.
+Posteriormente debes agregar el proveedor de servicios en tu fichero `config/app.php`:
 
-Una vez instalado un idioma, se puede utilizar cambiando el parámetro `locale` de la configuración de Laravel en `config/app.php`:
+```php
+'providers' => [
+    // ...
+    Laraveles\Spanish\SpanishServiceProvider::class,
+];
+```
+
+Ahora necesitamos actualizar las traducciones que lo haremos con el siguiente comando:
+
+```bash
+php artisan laraveles:install-lang
+```
+
+
+Déspues de todos estos pasos, ya tenemos disponible nuestras traducciones en español, y solo necesitamos configurar Laravel para que use el idioma deseado.
+
+Esto lo podemos hacer modificando el parámetro `locale` de la configuración de Laravel en `config/app.php`:
 
 ```
 // Ej: español
