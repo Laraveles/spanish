@@ -21,7 +21,7 @@ validation.php
 Puedes instalar este paquete mediante composer:
 
 ```bash
-composer require laraveles/lang-es
+composer require laraveles/spanish
 ```
 
 Posteriormente debes agregar el proveedor de servicios en tu fichero `config/app.php`:
