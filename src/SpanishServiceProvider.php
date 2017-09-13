@@ -15,7 +15,7 @@ class SpanishServiceProvider extends ServiceProvider
     {
         $this->publishes([
              __DIR__.'/../resources/lang' => resource_path('/lang'),
-        ]);
+        ], 'lang');
 
         if ($this->app->runningInConsole()) {
             $this->commands([
