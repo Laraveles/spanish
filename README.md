@@ -67,10 +67,6 @@ También se puede cambiar el idioma en tiempo de ejecución utilizando el métod
 App::setLocale('es');
 ```
 
-Para conocer de forma más completa como funcionan los archivos de traducción de Laravel visita la documentación.
-
-[Ver documentación (traducida)](http://laraveles.com/docs/5.1/localization)
-
 <a name="colaborar"></a>
 ## Colaborar
 
