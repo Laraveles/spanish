@@ -1,14 +1,18 @@
 {
-    "name": "laraveles/lang-spanish",
-    "description": "Traducciones en español para Laravel",
+    "name": "laraveles/spanish",
+    "description": "Conjunto de traducciones en español para Laravel",
     "keywords": [
         "laravel",
         "spanish",
         "traduccion",
         "laraveles"
     ],
-    "homepage": "https://github.com/Laraveles/lang-spanish",
+    "homepage": "https://github.com/Laraveles/spanish",
     "authors": [
+        {
+            "name": "Israel Ortuño",
+            "email": "ai.ortuno@gmail.com"
+        },
     	{
     		"name": "Cesar Garcia",
     		"email": "cesargb@gmail.com",
