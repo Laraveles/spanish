@@ -33,7 +33,7 @@ Posteriormente debes agregar el proveedor de servicios en tu fichero `config/app
 ];
 ```
 
-Ahora símplemente necesitamos necesitamos actualizar las traducciones que lo haremos con el siguiente comando:
+Ahora simplemente necesitamos necesitamos actualizar las traducciones que lo haremos con el siguiente comando:
 
 ```bash
 php artisan vendor:publish --tag=lang
