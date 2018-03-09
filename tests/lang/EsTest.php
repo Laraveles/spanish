@@ -24,4 +24,13 @@ class EsTest extends TestCase
             'Estas credenciales no coinciden con nuestros registros.'
         );
     }
+
+    /** @test */
+    public function tenemos_traduccion_para_plantilla()
+    {
+        $this->assertEquals(
+            __('Name'),
+            'Nombre'
+        );
+    }
 }
