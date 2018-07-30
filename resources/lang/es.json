@@ -1,13 +1,17 @@
 {
     "E-Mail Address": "Correo electrónico",
     "Password": "Contraseña",
-    "Remember Me": "Recordarme",
+    "Remember Me": "Recuérdame",
     "Login": "Acceder",
     "Forgot Your Password?": "¿Olvidaste tu contraseña?",
     "Register": "Registro",
     "Name": "Nombre",
     "Confirm Password": "Confirmar contraseña",
     "Reset Password": "Reestablecer contraseña",
+    "Reset Password Notification": "Aviso para reestablecer contraseña",
+    "You are receiving this email because we received a password reset request for your account.": "Estás recibiendo este email porque se ha solicitado un cambio de contraseña para tu cuenta.",
+    "If you did not request a password reset, no further action is required": "Si no has solicitado un cambio de contraseña, simplemente elimina este email.",
     "Send Password Reset Link": "Enviar enlace para restablecer contraseña",
     "Logout": "Cerrar sesión"
 }
+
