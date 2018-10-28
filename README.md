@@ -29,7 +29,7 @@ Puedes instalar este paquete mediante composer:
 composer require laraveles/spanish
 ```
 
-Posteriormente debes agregar el proveedor de servicios en tu fichero `config/app.php`:
+En versiones anteriores a la 5.5 debes agregar el proveedor de servicios en tu fichero `config/app.php` (no es necesario en Laravel 5.5+ gracias al [sistema de autodiscovery](https://medium.com/@taylorotwell/package-auto-discovery-in-laravel-5-5-ea9e3ab20518)):
 
 ```php
 'providers' => [
