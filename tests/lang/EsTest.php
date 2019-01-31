@@ -33,4 +33,30 @@ class EsTest extends TestCase
             'Nombre'
         );
     }
+
+    /** @test */
+    public function formato_json_correcto()
+    {
+        $fileJson = join(DIRECTORY_SEPARATOR, array(
+            dirname(__FILE__),
+            '..',
+            '..',
+            'resources',
+            'lang',
+            'es.json'
+        ));
+
+        $jsonData = file_get_contents($fileJson);
+
+        $this->assertJson($jsonData);
+
+        $traductions = json_decode($jsonData, true);
+
+        foreach ($traductions as $key => $traduction) {
+            $this->assertEquals(
+                __($key),
+                $traduction
+            );
+        }
+    }
 }
