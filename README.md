@@ -6,6 +6,10 @@
 
 Paquete de traducciones en español para Laravel 5. Este paquete te agrega a tu proyecto los ficheros de traducciones en español que Laravel 5 trae por defecto.
 
+## Versiones
+
+Para Laravel 5.8 utilizar la versión 1.2+, incluye la validación de contraseña hasta 8 caracteres. Para el resto de versiones utilizar 1.1+.
+
 Archivos por defecto incluidos en Laravel:
 
 ```
