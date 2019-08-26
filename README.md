@@ -42,7 +42,7 @@ En versiones anteriores a la 5.5 debes agregar el proveedor de servicios en tu f
 ];
 ```
 
-Ahora simplemente necesitamos necesitamos actualizar las traducciones que lo haremos con el siguiente comando:
+Ahora simplemente necesitamos actualizar las traducciones que lo haremos con el siguiente comando:
 
 ```bash
 php artisan vendor:publish --tag=lang
