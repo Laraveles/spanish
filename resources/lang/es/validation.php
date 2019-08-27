@@ -40,6 +40,7 @@ return [
     'dimensions'           => 'El campo :attribute tiene dimensiones de imagen inválidas.',
     'distinct'             => 'El campo :attribute tiene un valor duplicado.',
     'email'                => 'El campo :attribute debe ser una dirección de correo válida.',
+    'ends_with'            => 'El campo :attribute debe finalizar con alguno de los siguientes valores: :values',
     'exists'               => 'El campo :attribute seleccionado no existe.',
     'file'                 => 'El campo :attribute debe ser un archivo.',
     'filled'               => 'El campo :attribute debe tener un valor.',
