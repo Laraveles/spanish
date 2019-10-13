@@ -12,6 +12,7 @@
     "You are receiving this email because we received a password reset request for your account.": "Estás recibiendo este email porque se ha solicitado un cambio de contraseña para tu cuenta.",
     "This password reset link will expire in :count minutes.": "Este enlace para restablecer la contraseña caduca en :count minutos.",
     "If you did not request a password reset, no further action is required.": "Si no has solicitado un cambio de contraseña, puedes ignorar o eliminar este e-mail.",
+    "Please confirm your password before continuing.": "Por favor confirme su contraseña antes de continuar.",
     "Regards": "Saludos",
     "Whoops!": "¡Ups!",
     "Hello!": "¡Hola!",
