@@ -10,10 +10,7 @@ class EsTest extends TestCase
     public function comprueba_traducciones()
     {
         foreach (['validation', 'passwords', 'pagination', 'auth'] as $fichero) {
-            $ficheros[$fichero] = array_keys(trans($fichero));
-        }
-
-        foreach ($ficheros as $fichero => $claves) {
+            $claves     = array_keys(trans($fichero));
             $traduccion = (include __DIR__ . "/../../resources/lang/es/" . $fichero . ".php");
 
             foreach ($claves as $clave) {
