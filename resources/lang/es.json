@@ -16,6 +16,7 @@
     "Regards": "Saludos",
     "Whoops!": "¡Ups!",
     "Hello!": "¡Hola!",
+    "All rights reserved.": "Todos los derechos resevados",
     "If you’re having trouble clicking the \":actionText\" button, copy and paste the URL below\ninto your web browser: [:actionURL](:actionURL)": "Si tienes problemas haciendo click en el botón \":actionText\", copia y pega el siguiente\nenlace en tu navegador: [:actionURL](:actionURL)",
     "Send Password Reset Link": "Enviar enlace para restablecer contraseña",
     "Logout": "Cerrar sesión",
